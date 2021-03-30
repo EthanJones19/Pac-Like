@@ -165,6 +165,11 @@
     <ClCompile Include="Actor.cpp" />
     <ClCompile Include="Agent.cpp" />
     <ClCompile Include="Behavior.cpp" />
+    <ClCompile Include="BehaviorDecision.cpp" />
+    <ClCompile Include="BooleanDecision.cpp" />
+    <ClCompile Include="Condition.cpp" />
+    <ClCompile Include="Decision.cpp" />
+    <ClCompile Include="DecisionTreeBehavior.cpp" />
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="Ghost.cpp" />
     <ClCompile Include="KeyboardBehavior.cpp" />
@@ -184,6 +189,11 @@
     <ClInclude Include="Actor.h" />
     <ClInclude Include="Agent.h" />
     <ClInclude Include="Behavior.h" />
+    <ClInclude Include="BehaviorDecision.h" />
+    <ClInclude Include="BooleanDecision.h" />
+    <ClInclude Include="Condition.h" />
+    <ClInclude Include="Decision.h" />
+    <ClInclude Include="DecisionTreeBehavior.h" />
     <ClInclude Include="Game.h" />
     <ClInclude Include="Ghost.h" />
     <ClInclude Include="KeyboardBehavior.h" />

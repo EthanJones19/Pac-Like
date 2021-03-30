@@ -68,6 +68,21 @@
     <ClCompile Include="PathfindBehavior.cpp">
       <Filter>Engine Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="DecisionTreeBehavior.cpp">
+      <Filter>Pac Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Condition.cpp">
+      <Filter>Pac Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Decision.cpp">
+      <Filter>Pac Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BooleanDecision.cpp">
+      <Filter>Pac Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BehaviorDecision.cpp">
+      <Filter>Pac Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game.h">
@@ -117,6 +132,21 @@
     </ClInclude>
     <ClInclude Include="PathfindBehavior.h">
       <Filter>Engine Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BooleanDecision.h">
+      <Filter>Pac Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Condition.h">
+      <Filter>Pac Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Decision.h">
+      <Filter>Pac Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DecisionTreeBehavior.h">
+      <Filter>Pac Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BehaviorDecision.h">
+      <Filter>Pac Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
