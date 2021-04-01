@@ -170,8 +170,10 @@
     <ClCompile Include="Condition.cpp" />
     <ClCompile Include="Decision.cpp" />
     <ClCompile Include="DecisionTreeBehavior.cpp" />
+    <ClCompile Include="FleeBehavior.cpp" />
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="Ghost.cpp" />
+    <ClCompile Include="InRangeCondition.cpp" />
     <ClCompile Include="KeyboardBehavior.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Maze.cpp" />
@@ -194,8 +196,10 @@
     <ClInclude Include="Condition.h" />
     <ClInclude Include="Decision.h" />
     <ClInclude Include="DecisionTreeBehavior.h" />
+    <ClInclude Include="FleeBehavior.h" />
     <ClInclude Include="Game.h" />
     <ClInclude Include="Ghost.h" />
+    <ClInclude Include="InRangeCondition.h" />
     <ClInclude Include="KeyboardBehavior.h" />
     <ClInclude Include="Maze.h" />
     <ClInclude Include="NodeGraph.h" />

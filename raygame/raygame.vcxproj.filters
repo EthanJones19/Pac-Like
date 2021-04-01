@@ -65,9 +65,6 @@
     <ClCompile Include="SeekPathBehavior.cpp">
       <Filter>Pac Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="PathfindBehavior.cpp">
-      <Filter>Engine Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="DecisionTreeBehavior.cpp">
       <Filter>Pac Source Files</Filter>
     </ClCompile>
@@ -82,6 +79,15 @@
     </ClCompile>
     <ClCompile Include="BehaviorDecision.cpp">
       <Filter>Pac Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PathfindBehavior.cpp">
+      <Filter>Pac Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FleeBehavior.cpp">
+      <Filter>Pac Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InRangeCondition.cpp">
+      <Filter>Engine Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -130,9 +136,6 @@
     <ClInclude Include="SeekPathBehavior.h">
       <Filter>Pac Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="PathfindBehavior.h">
-      <Filter>Engine Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="BooleanDecision.h">
       <Filter>Pac Header Files</Filter>
     </ClInclude>
@@ -147,6 +150,15 @@
     </ClInclude>
     <ClInclude Include="BehaviorDecision.h">
       <Filter>Pac Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PathfindBehavior.h">
+      <Filter>Pac Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FleeBehavior.h">
+      <Filter>Pac Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InRangeCondition.h">
+      <Filter>Engine Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -7,6 +7,7 @@
 #include "BehaviorDecision.h"
 #include "BooleanDecision.h"
 
+
 Ghost::Ghost(float x, float y, float maxSpeed, int color, Maze* maze)
 	: Agent(x, y, Maze::TILE_SIZE / 2.5f, maxSpeed, maxSpeed, color)
 {
