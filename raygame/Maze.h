@@ -30,7 +30,7 @@ public:
 	struct Tile {
 		int x;
 		int y;
-		float cost = 1.0f;
+		float cost = 100.0f;
 		Actor* actor = nullptr;
 		NodeGraph::Node* node = nullptr;
 	};

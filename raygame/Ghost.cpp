@@ -9,7 +9,7 @@
 
 
 Ghost::Ghost(float x, float y, float maxSpeed, int color, Maze* maze)
-	: Agent(x, y, Maze::TILE_SIZE / 2.5f, maxSpeed, maxSpeed, color)
+	: Agent(x, y, Maze::TILE_SIZE / 2.5f, maxSpeed / 2, maxSpeed, color)
 {
 	m_pathfindBehavior = new SeekPathBehavior(maze);
 	m_pathfindBehavior->setColor(color);

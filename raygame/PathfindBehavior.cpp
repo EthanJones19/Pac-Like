@@ -21,6 +21,9 @@ void PathfindBehavior::update(Agent* owner, float deltaTime)
 	MathLibrary::Vector2 nextPosition = ownerPosition;
 	if (!m_path.empty())
 		nextPosition = m_path.front()->position;
+	else
+		m_needPath = true;
+
 	Maze::Tile nextTile = m_maze->getTile(nextPosition);
 
 	//If owner is at the front node, go to the following node
@@ -41,7 +44,7 @@ void PathfindBehavior::update(Agent* owner, float deltaTime)
 	MathLibrary::Vector2 steeringForce = desiredVelocity - owner->getVelocity();
 
 	//Apply the force
-	owner->applyForce(steeringForce);
+	owner->setVelocity(desiredVelocity);
 }
 
 void PathfindBehavior::draw(Agent* owner)

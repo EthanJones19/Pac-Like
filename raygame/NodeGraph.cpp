@@ -27,7 +27,18 @@ std::deque<NodeGraph::Node*> NodeGraph::findPath(Node* start, Node* end)
 	while (openList.size() > 0)
 	{
 		//Sorts the open list items by the g score
-		openList = openList;
+		for (int i = 0; i < openList.size(); i++)
+		{
+			for (int j = openList.size(); j > i; j--)
+			{
+				if (openList[i] > openList[j - 1])
+				{
+					Node* temp = openList[i];
+					openList[i] = openList[j - 1];
+					openList[j - 1] = temp;
+				}
+			}
+		}
 
 		//Sets the iterator to the front of the open list
 		iter = openList.front();
