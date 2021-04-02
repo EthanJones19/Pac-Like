@@ -5,6 +5,11 @@ VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "raygame", "raygame\raygame.vcxproj", "{100AB646-1529-43F3-B9D1-2C0A798642FF}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{87723095-C023-455D-BBBE-1DDDB52E07A0}"
+	ProjectSection(SolutionItems) = preProject
+		Tech Doc.txt = Tech Doc.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64

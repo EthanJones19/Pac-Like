@@ -4,6 +4,13 @@ Game Programming Year 1
 Description:
 This game is about you running away from the ghost in this pac like game. You have to avoid the ghost much as possible. The ghost will find a path to catch you.
 
+How to install/run:
+- Click on the release
+- Click on the zip folder
+- Download the zip folder
+- Unzip the downloaded file
+- Double click on the .exe file
+
 
 How to play:
 
