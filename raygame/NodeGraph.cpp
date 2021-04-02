@@ -68,6 +68,7 @@ std::deque<NodeGraph::Node*> NodeGraph::findPath(Node* start, Node* end)
 				other->gScore = gScore;
 				other->hScore = hScore;
 
+
 				//Sets the nodes previous to be the iterator
 				other->previous = iter;
 
@@ -140,3 +141,4 @@ void NodeGraph::drawConnectedNodes(Node* node, std::deque<Node*>* drawnList)
 		}
 	}
 }
+

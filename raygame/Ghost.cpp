@@ -29,6 +29,7 @@ Ghost::~Ghost()
 void Ghost::update(float deltaTime)
 {
 	Agent::update(deltaTime);
+	//m_pathfindBehavior->updatePath(this);
 }
 
 void Ghost::draw()
